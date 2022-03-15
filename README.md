@@ -1,1 +1,1 @@
-# VFXGraphIntermediate
+# VFX Graph Intermediate
