@@ -1,0 +1,92 @@
+# 
+# Wavefront material file
+# Created in RealityCapture v1.0.2
+# www.capturingreality.com
+# 
+
+newmtl Quebec-Gate-1M-RC_Material
+Ka 1 1 1
+Kd 1 1 1
+d 1
+Ns 0
+illum 1
+
+newmtl Quebec-Gate-1M-RC_Material_u1_v1
+Ka 1 1 1
+Kd 1 1 1
+d 1
+Ns 0
+illum 1
+map_Kd Quebec-Gate-1M-RC_u1_v1.jpg
+
+newmtl Quebec-Gate-1M-RC_Material_u2_v1
+Ka 1 1 1
+Kd 1 1 1
+d 1
+Ns 0
+illum 1
+map_Kd Quebec-Gate-1M-RC_u2_v1.jpg
+
+newmtl Quebec-Gate-1M-RC_Material_u3_v1
+Ka 1 1 1
+Kd 1 1 1
+d 1
+Ns 0
+illum 1
+map_Kd Quebec-Gate-1M-RC_u3_v1.jpg
+
+newmtl Quebec-Gate-1M-RC_Material_u1_v2
+Ka 1 1 1
+Kd 1 1 1
+d 1
+Ns 0
+illum 1
+map_Kd Quebec-Gate-1M-RC_u1_v2.jpg
+
+newmtl Quebec-Gate-1M-RC_Material_u2_v2
+Ka 1 1 1
+Kd 1 1 1
+d 1
+Ns 0
+illum 1
+map_Kd Quebec-Gate-1M-RC_u2_v2.jpg
+
+newmtl Quebec-Gate-1M-RC_Material_u1_v1
+Ka 1 1 1
+Kd 1 1 1
+d 1
+Ns 0
+illum 1
+map_Kd Quebec-Gate-1M-RC_u1_v1.jpg
+
+newmtl Quebec-Gate-1M-RC_Material_u2_v1
+Ka 1 1 1
+Kd 1 1 1
+d 1
+Ns 0
+illum 1
+map_Kd Quebec-Gate-1M-RC_u2_v1.jpg
+
+newmtl Quebec-Gate-1M-RC_Material_u3_v1
+Ka 1 1 1
+Kd 1 1 1
+d 1
+Ns 0
+illum 1
+map_Kd Quebec-Gate-1M-RC_u3_v1.jpg
+
+newmtl Quebec-Gate-1M-RC_Material_u1_v2
+Ka 1 1 1
+Kd 1 1 1
+d 1
+Ns 0
+illum 1
+map_Kd Quebec-Gate-1M-RC_u1_v2.jpg
+
+newmtl Quebec-Gate-1M-RC_Material_u2_v2
+Ka 1 1 1
+Kd 1 1 1
+d 1
+Ns 0
+illum 1
+map_Kd Quebec-Gate-1M-RC_u2_v2.jpg
