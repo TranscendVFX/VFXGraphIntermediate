@@ -22,12 +22,13 @@ namespace VFXProject4D
 
 		private MeshRenderer attractorMeshRenderer;
 		private float fbmTime;
-		
+		private Vector3 cachedLocalPosition;
+		//private Transform cachedTransform;
 		
 		public override void Start()
 		{
 			this.attractorMeshRenderer = this.attractor.gameObject.GetComponent<MeshRenderer>();
-			this.attractorMeshRenderer.enabled = false;
+			//this.attractorMeshRenderer.enabled = false;
 
 		}
 		
@@ -35,9 +36,16 @@ namespace VFXProject4D
 		{
 			//this.attractor.position = SamplePosition(this.attractor.position);
 			//this.vfx.SetVector3("AttractorPosition", this.attractor.position);
+			
+			
 			this.attractor.localPosition = this.SamplePosition(this.attractor.localPosition);
+			Vector3 lookingDir = this.attractor.localPosition - cachedLocalPosition;
+			this.attractor.rotation = Quaternion.LookRotation(lookingDir, Vector3.up);
+			
 			this.vfx.SetVector3("AttractorPosition", this.attractor.localPosition);
             fbmTime += UnityEngine.Time.deltaTime * fbmFrequency;
+			
+			this.cachedLocalPosition = this.attractor.localPosition;
 		}
 		
 		public override Vector3 SamplePosition(Vector3 position)
