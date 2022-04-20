@@ -55,7 +55,7 @@ MonoBehaviour:
   active: 1
   opacity:
     m_OverrideState: 1
-    m_Value: 0.364
+    m_Value: 0.35
   edgeColor:
     m_OverrideState: 0
     m_Value: {r: 0, g: 0, b: 0, a: 1}
@@ -75,8 +75,8 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0.1
   interval:
-    m_OverrideState: 0
-    m_Value: 1
+    m_OverrideState: 1
+    m_Value: 2
   iteration:
     m_OverrideState: 0
     m_Value: 20
@@ -120,10 +120,10 @@ MonoBehaviour:
     m_Value: 1
   wobblingPower:
     m_OverrideState: 1
-    m_Value: 0.0025
+    m_Value: 0.005
   wobblingTiling:
-    m_OverrideState: 0
-    m_Value: {x: 0.5, y: 1}
+    m_OverrideState: 1
+    m_Value: {x: 1, y: 1}
   edgeDarkningPower:
     m_OverrideState: 1
     m_Value: 3
@@ -138,7 +138,7 @@ MonoBehaviour:
     m_Value: {x: 1, y: 1}
   washiPaperPower:
     m_OverrideState: 1
-    m_Value: 2.5
+    m_Value: 3
   washiPaperTiling:
     m_OverrideState: 0
     m_Value: {x: 1, y: 1}
@@ -349,13 +349,13 @@ MonoBehaviour:
   components:
   - {fileID: 798254329556004225}
   - {fileID: 3253883381445822677}
-  - {fileID: -5790224529004045160}
   - {fileID: -4169733281582704962}
   - {fileID: -7478457098570870272}
   - {fileID: -55310089268709469}
   - {fileID: -377568002882440255}
   - {fileID: 3969390270130196590}
   - {fileID: -3990776529660705243}
+  - {fileID: -5790224529004045160}
 --- !u!114 &798254329556004225
 MonoBehaviour:
   m_ObjectHideFlags: 3
