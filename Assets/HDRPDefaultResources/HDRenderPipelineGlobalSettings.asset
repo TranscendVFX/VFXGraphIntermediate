@@ -83,6 +83,8 @@ MonoBehaviour:
     PublicKeyToken=null
   - Kino.PostProcessing.Utility, Kino.Postprocessing, Version=0.0.0.0, Culture=neutral,
     PublicKeyToken=null
+  - CinemaPaint.PostProcessing.WaterColor, CinemaPaint.Postprocessing, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
   beforeTAACustomPostProcesses: []
   lightLayerName0: Light Layer default
   lightLayerName1: Light Layer 1

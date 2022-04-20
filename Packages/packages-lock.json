@@ -146,6 +146,15 @@
       },
       "url": "https://registry.npmjs.com"
     },
+    "jp.supertask.cinema-paint.post-processing": {
+      "version": "https://github.com/supertask/CinemaPaint.git?path=/Packages/jp.supertask.cinema-paint.post-processing",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.render-pipelines.high-definition": "12.1.6"
+      },
+      "hash": "8ff415fdb0054e633c8440d26f0eaebc970dc347"
+    },
     "com.unity.modules.animation": {
       "version": "1.0.0",
       "depth": 1,

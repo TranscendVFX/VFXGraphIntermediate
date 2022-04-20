@@ -9,6 +9,7 @@
     }
   ],
   "dependencies": {
+    "jp.supertask.cinema-paint.post-processing": "https://github.com/supertask/CinemaPaint.git?path=/Packages/jp.supertask.cinema-paint.post-processing",
     "com.unity.render-pipelines.high-definition": "12.1.6",
     "jp.keijiro.kino.aqua": "1.0.3",
     "jp.keijiro.kino.post-processing": "2.1.15",
