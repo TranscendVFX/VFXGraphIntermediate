@@ -18,6 +18,7 @@
     "jp.keijiro.noiseshader": "2.0.0",
     "jp.keijiro.shadergraphassets": "1.0.0",
     "jp.keijiro.vfxgraphassets": "1.0.6",
+    "jp.supertask.shaderlibcore": "https://github.com/supertask/ShaderLibCore.git?path=/Packages/jp.supertask.shaderlibcore",
     "jp.supertask.cinema-paint.post-processing": "https://github.com/supertask/CinemaPaint.git?path=/Packages/jp.supertask.cinema-paint.post-processing"
   }
 }

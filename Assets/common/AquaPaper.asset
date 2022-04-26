@@ -120,7 +120,7 @@ MonoBehaviour:
     m_Value: 1
   wobblingPower:
     m_OverrideState: 1
-    m_Value: 0.005
+    m_Value: 0.0025
   wobblingTiling:
     m_OverrideState: 1
     m_Value: {x: 1, y: 1}
