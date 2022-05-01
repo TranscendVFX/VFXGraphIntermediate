@@ -9,6 +9,8 @@
     }
   ],
   "dependencies": {
+    "jp.keijiro.beta": "1.0.2",
+    "jp.keijiro.cmu-mocap": "1.0.0",
     "com.unity.recorder": "3.0.3",
     "com.unity.render-pipelines.high-definition": "12.1.6",
     "jp.keijiro.kino.aqua": "1.0.3",

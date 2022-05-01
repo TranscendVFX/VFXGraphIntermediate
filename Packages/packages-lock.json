@@ -106,6 +106,20 @@
         "com.unity.render-pipelines.core": "12.1.6"
       }
     },
+    "jp.keijiro.beta": {
+      "version": "1.0.2",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://registry.npmjs.com"
+    },
+    "jp.keijiro.cmu-mocap": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://registry.npmjs.com"
+    },
     "jp.keijiro.kino.aqua": {
       "version": "1.0.3",
       "depth": 0,

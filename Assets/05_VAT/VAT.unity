@@ -193,7 +193,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1436816064}
-  interpolator: 2
+  interpolator: 0
   positionSpeed: 2
   rotationSpeed: 2
 --- !u!1 &71181123
@@ -582,7 +582,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3b3e3ff24f369fb4a97007e005c90c8b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.7190828
+      value: -4.4704876
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3b3e3ff24f369fb4a97007e005c90c8b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -590,11 +590,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3b3e3ff24f369fb4a97007e005c90c8b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.1960206
+      value: -2.2393613
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3b3e3ff24f369fb4a97007e005c90c8b, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.8786984
+      value: 0.2299012
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3b3e3ff24f369fb4a97007e005c90c8b, type: 3}
       propertyPath: m_LocalRotation.x
@@ -602,7 +602,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3b3e3ff24f369fb4a97007e005c90c8b, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.4773774
+      value: 0.973214
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3b3e3ff24f369fb4a97007e005c90c8b, type: 3}
       propertyPath: m_LocalRotation.z
@@ -916,7 +916,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1653161607}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -955,7 +955,7 @@ VisualEffect:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1653161607}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Asset: {fileID: 8926484042661614526, guid: e596443874ed26d4cb469f1cd770d6f3, type: 3}
   m_InitialEventName: OnPlay
   m_InitialEventNameOverriden: 0
@@ -990,7 +990,7 @@ VisualEffect:
       m_Array: []
     m_Vector3f:
       m_Array:
-      - m_Value: {x: 2.7190828, y: 0, z: 4.1960206}
+      - m_Value: {x: -4.4704876, y: 0, z: -2.2393613}
         m_Name: AttractorPosition
         m_Overridden: 1
     m_Vector4f:
@@ -1033,7 +1033,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1653161607}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 531c8bd571d41464085025779c9ee61b, type: 3}
   m_Name: 
@@ -1082,7 +1082,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1828973240}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
   m_Name: 

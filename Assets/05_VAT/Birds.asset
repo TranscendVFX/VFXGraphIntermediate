@@ -55,7 +55,7 @@ MonoBehaviour:
   active: 0
   opacity:
     m_OverrideState: 1
-    m_Value: 0.35
+    m_Value: 0.07
   edgeColor:
     m_OverrideState: 0
     m_Value: {r: 0, g: 0, b: 0, a: 1}
@@ -114,7 +114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a73580c8a08d2874ca6efb00b34c6527, type: 3}
   m_Name: WaterColor
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   isEnabled:
     m_OverrideState: 1
     m_Value: 1
@@ -142,6 +142,31 @@ MonoBehaviour:
   washiPaperTiling:
     m_OverrideState: 0
     m_Value: {x: 1, y: 1}
+--- !u!114 &-3585643138622006217
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5f019255bcd1cb489b193b5e8443a27, type: 3}
+  m_Name: Streak
+  m_EditorClassIdentifier: 
+  active: 1
+  threshold:
+    m_OverrideState: 1
+    m_Value: 0.75
+  stretch:
+    m_OverrideState: 0
+    m_Value: 0.75
+  intensity:
+    m_OverrideState: 1
+    m_Value: 0.01
+  tint:
+    m_OverrideState: 0
+    m_Value: {r: 0.55, g: 0.55, b: 1, a: 1}
 --- !u!114 &-1631061523817392999
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -348,7 +373,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   components:
   - {fileID: 798254329556004225}
-  - {fileID: 3253883381445822677}
+  - {fileID: -3585643138622006217}
   - {fileID: -4169733281582704962}
   - {fileID: -7478457098570870272}
   - {fileID: -55310089268709469}
@@ -421,31 +446,6 @@ MonoBehaviour:
   sourceAlpha:
     m_OverrideState: 0
     m_Value: 1
---- !u!114 &3253883381445822677
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5f019255bcd1cb489b193b5e8443a27, type: 3}
-  m_Name: Streak
-  m_EditorClassIdentifier: 
-  active: 0
-  threshold:
-    m_OverrideState: 1
-    m_Value: 1
-  stretch:
-    m_OverrideState: 1
-    m_Value: 0.75
-  intensity:
-    m_OverrideState: 1
-    m_Value: 0.085
-  tint:
-    m_OverrideState: 0
-    m_Value: {r: 0.55, g: 0.55, b: 1, a: 1}
 --- !u!114 &3969390270130196590
 MonoBehaviour:
   m_ObjectHideFlags: 3

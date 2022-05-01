@@ -7,33 +7,36 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Whale
-  m_Shader: {fileID: 4800000, guid: 6e4ae4064600d784cac1e41a9e6f2e59, type: 3}
+  m_Name: WhaleBody
+  m_Shader: {fileID: -6465566751694194690, guid: c6369d363a57f764f899eae37844f150, type: 3}
   m_ValidKeywords:
+  - _ALPHATEST_ON
+  - _SURFACE_TYPE_TRANSPARENT
+  m_InvalidKeywords:
+  - _COLORMAP
   - _DISABLE_DECALS
   - _DISABLE_SSR
   - _DISABLE_SSR_TRANSPARENT
-  - _NORMALMAP
-  - _NORMALMAP_TANGENT_SPACE
-  m_InvalidKeywords:
-  - _COLORMAP
   - _MATERIAL_AFFECTS_ALBEDO
   - _MATERIAL_AFFECTS_MASKMAP
   - _MATERIAL_AFFECTS_NORMAL
+  - _NORMALMAP
+  - _NORMALMAP_TANGENT_SPACE
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2000
-  stringTagMap: {}
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    MotionVector: User
+    RenderType: Transparent
   disabledShaderPasses:
-  - DistortionVectors
+  - RayTracingPrepass
   - MOTIONVECTORS
   - DecalMeshForwardEmissive
   - DecalProjectorForwardEmissive
   - TransparentDepthPrepass
   - TransparentDepthPostpass
   - TransparentBackface
-  - RayTracingPrepass
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -152,20 +155,22 @@ Material:
     - _AffectSmoothness: 1
     - _AlbedoAffectEmissive: 0
     - _AlphaCutoff: 0.5
-    - _AlphaCutoffEnable: 0
+    - _AlphaCutoffEnable: 1
     - _AlphaCutoffPostpass: 0.5
     - _AlphaCutoffPrepass: 0.5
     - _AlphaCutoffShadow: 0.5
-    - _AlphaDstBlend: 0
+    - _AlphaDstBlend: 10
     - _AlphaSrcBlend: 1
     - _AlphaToMask: 0
     - _AlphaToMaskInspectorValue: 0
     - _Anisotropy: 0
-    - _BlendMode: 0
+    - _BlendMode: 4
     - _CoatMask: 0
+    - _ConservativeDepthOffsetEnable: 0
     - _CullMode: 2
     - _CullModeForward: 2
     - _Cutoff: 0.5
+    - _CyberCircuitLineThickness: 0.01
     - _DecalBlend: 0.5
     - _DecalColorMask0: 15
     - _DecalColorMask1: 15
@@ -186,6 +191,7 @@ Material:
     - _DisplacementLockObjectScale: 1
     - _DisplacementLockTilingScale: 1
     - _DisplacementMode: 0
+    - _DissolveThreshold: 0.43
     - _DistortionBlendMode: 0
     - _DistortionBlurBlendMode: 0
     - _DistortionBlurDstBlend: 1
@@ -205,13 +211,13 @@ Material:
     - _DoubleSidedGIMode: 0
     - _DoubleSidedNormalMode: 1
     - _DrawOrder: 0
-    - _DstBlend: 0
+    - _DstBlend: 10
     - _EmissiveColorMode: 1
     - _EmissiveExposureWeight: 1
     - _EmissiveIntensity: 1
     - _EmissiveIntensityUnit: 0
     - _EnableBlendModePreserveSpecularLighting: 1
-    - _EnableFogOnTransparent: 1
+    - _EnableFogOnTransparent: 0
     - _EnableGeometricSpecularAA: 0
     - _EnergyConservingSpecularColor: 1
     - _HeightAmplitude: 0.02
@@ -247,6 +253,7 @@ Material:
     - _ReceivesSSR: 0
     - _ReceivesSSRTransparent: 0
     - _RefractionModel: 0
+    - _RenderQueueType: 4
     - _Smoothness: 0
     - _SmoothnessRemapMax: 1
     - _SmoothnessRemapMin: 0
@@ -266,7 +273,7 @@ Material:
     - _StencilWriteMaskMV: 40
     - _SubsurfaceMask: 1
     - _SupportDecals: 0
-    - _SurfaceType: 0
+    - _SurfaceType: 1
     - _TexWorldScale: 1
     - _TexWorldScaleEmissive: 1
     - _Thickness: 1
@@ -277,15 +284,19 @@ Material:
     - _TransparentDepthPrepassEnable: 0
     - _TransparentSortPriority: 0
     - _TransparentWritingMotionVec: 0
-    - _TransparentZWrite: 0
+    - _TransparentZWrite: 1
     - _UVBase: 0
     - _UVDetail: 0
     - _UVEmissive: 0
     - _Unity_Identify_HDRP_Decal: 1
     - _UseEmissiveIntensity: 0
     - _UseShadowThreshold: 0
-    - _ZTestDepthEqualForOpaque: 3
-    - _ZTestGBuffer: 4
+    - _VoronoiRandomness: 1
+    - _VoronoiTime: 0
+    - _VoronoiWeight: 0
+    - _WaveScale: 7.18
+    - _ZTestDepthEqualForOpaque: 4
+    - _ZTestGBuffer: 3
     - _ZTestModeDistortion: 4
     - _ZTestTransparent: 4
     - _ZWrite: 1
@@ -293,7 +304,9 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _CyberCircuitColor: {r: 2.592344, g: 7.200957, b: 9.169218, a: 0}
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
+    - _DissolveColor: {r: 0.7129739, g: 6.8271966, b: 14.259475, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
@@ -309,6 +322,7 @@ Material:
     - _UVMappingMaskEmissive: {r: 1, g: 0, b: 0, a: 0}
     - _UnlitColor: {r: 1, g: 1, b: 1, a: 1}
     - _UnlitColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
+    - _VoronoiTiling: {r: 4.22, g: 4.22, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &5672454160279629965
 MonoBehaviour:
