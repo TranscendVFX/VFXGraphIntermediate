@@ -138,6 +138,13 @@
       },
       "url": "https://registry.npmjs.com"
     },
+    "jp.keijiro.klak.lineargradient": {
+      "version": "1.0.2",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://registry.npmjs.com"
+    },
     "jp.keijiro.klak.motion": {
       "version": "1.0.2",
       "depth": 0,
@@ -148,11 +155,20 @@
       "url": "https://registry.npmjs.com"
     },
     "jp.keijiro.metamesh": {
-      "version": "1.0.1",
+      "version": "1.0.2",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.mathematics": "1.2.1"
+      },
+      "url": "https://registry.npmjs.com"
+    },
+    "jp.keijiro.metatex": {
+      "version": "1.0.3",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "jp.keijiro.klak.lineargradient": "1.0.2"
       },
       "url": "https://registry.npmjs.com"
     },
@@ -164,11 +180,12 @@
       "url": "https://registry.npmjs.com"
     },
     "jp.keijiro.shadergraphassets": {
-      "version": "1.0.0",
+      "version": "2.5.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.shadergraph": "10.0.0"
+        "com.unity.shadergraph": "12.1.0",
+        "jp.keijiro.noiseshader": "2.0.0"
       },
       "url": "https://registry.npmjs.com"
     },

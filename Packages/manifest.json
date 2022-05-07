@@ -9,18 +9,19 @@
     }
   ],
   "dependencies": {
-    "jp.keijiro.beta": "1.0.2",
-    "jp.keijiro.cmu-mocap": "1.0.0",
     "com.unity.recorder": "3.0.3",
     "com.unity.render-pipelines.high-definition": "12.1.6",
+    "jp.keijiro.beta": "1.0.2",
+    "jp.keijiro.cmu-mocap": "1.0.0",
     "jp.keijiro.kino.aqua": "1.0.3",
     "jp.keijiro.kino.post-processing": "2.1.15",
     "jp.keijiro.klak.motion": "1.0.2",
-    "jp.keijiro.metamesh": "1.0.1",
+    "jp.keijiro.metamesh": "1.0.2",
+    "jp.keijiro.metatex": "1.0.3",
     "jp.keijiro.noiseshader": "2.0.0",
-    "jp.keijiro.shadergraphassets": "1.0.0",
+    "jp.keijiro.shadergraphassets": "2.5.0",
     "jp.keijiro.vfxgraphassets": "1.0.6",
-    "jp.supertask.shaderlibcore": "https://github.com/supertask/ShaderLibCore.git?path=/Packages/jp.supertask.shaderlibcore",
-    "jp.supertask.cinema-paint.post-processing": "https://github.com/supertask/CinemaPaint.git?path=/Packages/jp.supertask.cinema-paint.post-processing"
+    "jp.supertask.cinema-paint.post-processing": "https://github.com/supertask/CinemaPaint.git?path=/Packages/jp.supertask.cinema-paint.post-processing",
+    "jp.supertask.shaderlibcore": "https://github.com/supertask/ShaderLibCore.git?path=/Packages/jp.supertask.shaderlibcore"
   }
 }
