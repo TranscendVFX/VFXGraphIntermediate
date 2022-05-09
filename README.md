@@ -5,17 +5,21 @@
 
 ![VFX Phoenix](./images/VFXPhoenix.jpg)
 
+## VFX Dancer 
+
+Comming soon..
+
+## VFX Birds
+
+Comming soon..
+
+## VFX Swarm
+
+![VFX Dragon](./images/VFXSwarm.gif)
 ## VFX Dragon
 
 ![VFX Dragon](./images/VFXDragon.gif)
 
-##  Trails
-
-Comming soon..
-
-## VAT
-
-Comming soon..
 
 ## Ref.
 
