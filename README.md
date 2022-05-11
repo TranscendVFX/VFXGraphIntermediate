@@ -7,7 +7,7 @@
 
 ## VFX Dancer 
 
-Comming soon..
+![VFX Dancer](./images/VFXDancer.gif)
 
 ## VFX Birds
 

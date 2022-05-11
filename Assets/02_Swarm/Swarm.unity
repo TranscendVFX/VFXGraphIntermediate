@@ -24,7 +24,7 @@ RenderSettings:
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 4
+  m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.1280942, g: 0.15871572, b: 0.21006799, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -219,7 +219,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1401117194
 GameObject:
@@ -304,7 +304,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 31.58, y: -48.83, z: 0}
 --- !u!114 &1401117198
 MonoBehaviour:
@@ -751,7 +751,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2144868341
 GameObject:
@@ -1020,7 +1020,7 @@ VisualEffect:
       m_Array: []
     m_Vector3f:
       m_Array:
-      - m_Value: {x: -7.043528, y: 0.05810397, z: 1.2441978}
+      - m_Value: {x: 6.9257064, y: -0.23855278, z: 0.47796026}
         m_Name: AttractorPosition
         m_Overridden: 1
     m_Vector4f:
@@ -1062,7 +1062,7 @@ Transform:
   m_Children:
   - {fileID: 6910602353266247838}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!73398921 &5437399768911424335
 VFXRenderer:
@@ -1151,7 +1151,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6910602353266247839}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -1206,10 +1206,10 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6910602353266247839}
-  m_LocalRotation: {x: -0.009484501, y: 0.98777366, z: -0.06662175, w: -0.14062282}
-  m_LocalPosition: {x: -7.043528, y: 0.05810397, z: 1.2441978}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
-  m_ConstrainProportionsScale: 0
+  m_LocalRotation: {x: -0.019940987, y: -0.026807167, z: -0.00053486, w: 0.9994416}
+  m_LocalPosition: {x: 6.9257064, y: -0.23855278, z: 0.47796026}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 5437399768911424334}
   m_RootOrder: 0
